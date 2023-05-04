@@ -14,7 +14,9 @@ RSpec.describe "Solver" do
         end
 
         it "reverses a string" do
-            
+            solver = Solver.new
+
+            expect(solver.reverse('eye')).to eq('eye')
         end
     end
 end
