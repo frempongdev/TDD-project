@@ -10,6 +10,7 @@ RSpec.describe "Solver" do
             expect(solver.factorial(2)).to eq(2)
             expect(solver.factorial(3)).to eq(6)
             expect(solver.factorial(5)).to eq(120)
+            expect(solver.factorial(-5)).to raise_error( ArgumentError, "Number must be non-negative")
         end
     end
 end
