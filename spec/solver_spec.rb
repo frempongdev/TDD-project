@@ -9,6 +9,7 @@ RSpec.describe "Solver" do
             expect(solver.factorial(1)).to eq(1)
             expect(solver.factorial(2)).to eq(2)
             expect(solver.factorial(3)).to eq(6)
+            expect(solver.factorial(5)).to eq(120)
         end
     end
 end
