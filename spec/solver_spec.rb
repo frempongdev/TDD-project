@@ -12,5 +12,9 @@ RSpec.describe "Solver" do
             expect(solver.factorial(5)).to eq(120)
             expect{solver.factorial(-5)}.to raise_error( ArgumentError, "Number must be non-negative")
         end
+
+        it "reverses a string" do
+            
+        end
     end
 end
