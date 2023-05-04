@@ -3,7 +3,7 @@ class Solver
          if number == 0 || number == 1
             1
          else
-            number * (number - 1)
+            number * factorial(number - 1)
          end
     end
 end
