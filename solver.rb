@@ -12,4 +12,10 @@ class Solver
     def reverse(word)
         word.reverse
     end
+
+    def fizzbuzz(num)
+      if(num%3 == 0)
+        'fizz'
+      end
+    end
 end
