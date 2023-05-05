@@ -20,6 +20,8 @@ class Solver
         'buzz'
       elsif num%3 == 0
         'fizz'
+      else
+        "#{num}"
       end
     end
 end
