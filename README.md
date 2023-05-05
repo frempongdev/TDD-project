@@ -36,7 +36,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 School Library  <a name="about-project"></a>
+# 📖 TDD Project  <a name="about-project"></a>
 
 **TDD Project** is a Ruby application that has specifically implemented the Test Driven Development model in writing out code. The tests are written first and the methods and crafted to pass all the testing examples and cases.
 
