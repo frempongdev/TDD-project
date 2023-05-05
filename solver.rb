@@ -10,10 +10,6 @@ class Solver
     end
 
     def reverse(word)
-        if word == 'hello'
-            'olleh'
-        else
-            word
-        end
+        word.reverse
     end
 end
