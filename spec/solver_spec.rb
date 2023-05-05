@@ -36,5 +36,9 @@ RSpec.describe "Solver" do
       it 'return fizzbuzz when number is divisble by 3 and 5' do
         expect(@solver.fizzbuzz(15)).to eq 'fizzbuzz'
       end
+
+      it 'return number if not divisible by 3 or 5' do
+        expect(@solver.fizzbuzz(2)).to eq '2'
+      end
     end
 end
