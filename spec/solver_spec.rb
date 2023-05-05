@@ -18,6 +18,7 @@ RSpec.describe "Solver" do
 
             expect(solver.reverse('eye')).to eq('eye')
             expect(solver.reverse('hello')).to eq('olleh')
+            expect(solver.reverse('microverse')).to eq('esrevorcim')
         end
     end
 end
