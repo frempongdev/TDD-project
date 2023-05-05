@@ -28,5 +28,9 @@ RSpec.describe "Solver" do
       it 'return fizz when number is divisble by 3' do
         expect(@solver.fizzbuzz(3)).to eq 'fizz'
       end
+
+      it 'return buzz when number is divisble by 5' do
+        expect(@solver.fizzbuzz(10)).to eq 'buzz'
+      end
     end
 end
