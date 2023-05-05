@@ -27,18 +27,22 @@ RSpec.describe "Solver" do
     context 'fizzbuzz' do
       it 'return fizz when number is divisble by 3' do
         expect(@solver.fizzbuzz(3)).to eq 'fizz'
+        expect(@solver.fizzbuzz(21)).to eq 'fizz'
       end
 
       it 'return buzz when number is divisble by 5' do
         expect(@solver.fizzbuzz(10)).to eq 'buzz'
+        expect(@solver.fizzbuzz(20)).to eq 'buzz'
       end
 
       it 'return fizzbuzz when number is divisble by 3 and 5' do
         expect(@solver.fizzbuzz(15)).to eq 'fizzbuzz'
+        expect(@solver.fizzbuzz(30)).to eq 'fizzbuzz'
       end
 
       it 'return number if not divisible by 3 or 5' do
         expect(@solver.fizzbuzz(2)).to eq '2'
+        expect(@solver.fizzbuzz(4)).to eq '4'
       end
     end
 end
