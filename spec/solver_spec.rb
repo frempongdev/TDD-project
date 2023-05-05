@@ -21,4 +21,10 @@ RSpec.describe "Solver" do
             expect(solver.reverse('microverse')).to eq('esrevorcim')
         end
     end
+
+    context 'fizzbuzz' do
+      it 'return fizz when number is divisble by 3' do
+        expect(fizzbuzz(3)).to eq 'fizz'
+      end
+    end
 end
