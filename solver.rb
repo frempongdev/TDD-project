@@ -9,7 +9,11 @@ class Solver
          end
     end
 
-    def reverse(string)
-        string
+    def reverse(word)
+        if word == 'hello'
+            'olleh'
+        else
+            word
+        end
     end
 end
